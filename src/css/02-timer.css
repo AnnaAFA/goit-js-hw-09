@@ -1,0 +1,58 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.value {
+  display: block;
+  font-weight: 600px;
+  font-size: 50px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 80px;
+  border: solid 1 black;
+}
+
+button {
+  width: 120px;
+  height: 34px;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #d9dad8;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+input:disabled {
+  font-weight: 400;
+  background-color: #d9dad8;
+}
