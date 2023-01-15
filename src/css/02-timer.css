@@ -28,8 +28,8 @@ button {
   color: black;
   display: flex;
   justify-content: center;
+  text-align: center;
   margin: auto;
-  margin-top: 20px;
 }
 
 button:disabled {
@@ -46,6 +46,7 @@ input {
   display: flex;
   justify-content: center;
   margin: auto;
+  margin-bottom: 20px;
   padding: 10px;
   font-weight: 600;
   font-size: 18px;
